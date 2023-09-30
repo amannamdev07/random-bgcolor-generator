@@ -3,13 +3,13 @@ const result = document.getElementById('result');
 
 change.addEventListener('click', () => {
     const colorChanger = () => {
-        const color = "ABCDEF1234567890";
-        let hex = "#"
+        const hex = "ABCDEF1234567890";
+        let color = "#"
         for(let i=0; i<6; i++) {
-            hex += color[Math.floor(Math.random()*16)];
+            color += hex[Math.floor(Math.random()*16)];
         }
-        result.innerHTML = `Background Color Code : ${hex}`
-        return hex;
+        result.innerHTML = `Background Color Code : ${color}`
+        return color;
     }
     document.body.style.backgroundColor = colorChanger();
 
