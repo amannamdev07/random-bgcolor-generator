@@ -14,6 +14,7 @@ body {
     justify-content: center;
     width: 100%;
     height: 100vh;
+    background-color: #A9C8F3;
 }
 
 .main_container {
@@ -24,12 +25,12 @@ body {
     gap: 1.8125rem;
     border-radius: 15px;
     background-color: blue;
-    width: 50%;
+    width: 40%;
     height: 40%;
-    background-image: linear-gradient(to right top, #1c3253, #165f8a, #008793, #2b966d, #a8eb12);
+    background-image: linear-gradient(to right top, #2e5794, #258bc7, #19b7c5, #2fd193, #c0f54d);
     color: white;
     text-shadow: 1px 1px 9px black;
-    box-shadow: 1px 1px 25px rgb(245, 240, 240);
+    box-shadow: 1px 1px 5px rgb(128, 128, 128);
 }
 
 h1 {
