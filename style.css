@@ -52,22 +52,3 @@ button {
     font-size: 1.8rem;
     text-transform: capitalize;
 }
-
-@media screen and (max-width : 720px) {
-    h1 {
-        font-size: 2.7rem;
-        text-transform: capitalize;
-    }
-
-    .result {
-        font-size: 2rem;
-    }
-
-    button {
-        font-size: 1.3rem;
-    }
-
-    .main_container {
-        text-align: center;
-    }
-}

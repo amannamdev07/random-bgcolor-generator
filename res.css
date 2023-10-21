@@ -1,0 +1,14 @@
+@media screen and (max-width :  720px) {
+    html {
+        font-size: 52%;
+    }
+
+    
+.main_container {
+    width: 80%;
+    height: 40%;
+    padding: 2rem;
+    text-align: center;
+}
+
+}
